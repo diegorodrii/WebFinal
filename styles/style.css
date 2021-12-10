@@ -1,0 +1,394 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+body  {
+    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 90px 20px 0;
+}
+
+.header {
+    background-color: #07e95e;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    max-width: 992px; /* Breakpoint para responsive estudiado por Bootstrap*/
+    margin: 0 auto;
+}
+
+.nav-link {
+    color:white;
+    text-decoration: none;
+
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 40px;
+    line-height: 80px;
+}
+
+.nav-menu {
+    display: flex;
+    margin-right: 40px;
+    list-style: none;
+   
+}
+
+.nav-menu-item {
+    font-size: 18px;
+    margin: 0 10px;
+    line-height: 80px;
+    text-transform: uppercase;
+    width: max-content;
+}
+
+.nav-menu-link:hover, .nav-menu-link_active {
+    background-color: #03742e;
+    transition: 0.7s;
+}
+
+.nav-menu-link {
+    padding: 8px 12px;
+    border-radius: 3px;
+}
+
+.nav-toggle {
+    color: white;
+    background: none;
+    border:none;
+    font-size: 30px;
+    padding:0 20px;
+    line-height: 60px;
+    display: none;/* no se ve en pc */
+    
+
+
+}
+
+p {
+    padding: 15px;
+    text-align: justify;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    color: black;
+    font-size: 2rem;
+    
+}
+
+div {
+    padding: 20px 40px;
+
+}
+
+.hero {
+    padding: 2rem;
+    align-items: center;
+    height: 400px;
+    padding: 2rem;
+    text-align: center;
+   
+    text-decoration: none;
+    background-image: url(/images/modem.jpg);
+    background-repeat: repeat;
+    background-position: 50% 50%;
+}
+
+
+a:link {
+text-decoration: none;
+color: #225420;
+}
+
+
+a:visited {
+text-decoration: none;
+color: #3a6d26;
+    }
+
+
+a:hover {
+text-decoration: none;
+color: #408A9F;
+}
+
+
+
+ a:active {
+ text-decoration: none;
+ }
+
+
+
+.button {
+    background-color: #4CAF50; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+
+.mitad {
+    width: 50%;
+    float:left;
+    box-sizing: border-box;
+}
+
+
+
+
+
+#history {
+    
+    
+    display: block;
+    margin:auto;
+    
+}
+
+#historia_derecha{
+    background-color: seagreen;
+    padding: 4%;
+    text-align: center;
+    font-size: 1.2em;
+} 
+
+#historia_izquierda{
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#izquierda{
+    background-color: seagreen;
+    padding: 4%;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+#derecha{
+    margin-top: 20px;
+}
+
+
+
+#modem {
+    width: 50%; /*** 50% de su columna**/
+    display: block;
+    margin:auto;
+
+}
+
+.cortafloat {
+    clear: both;
+}
+
+#div_acoplador {
+    border-bottom: 5rem;
+}
+
+
+.video, .marca {width:25%;
+float:left;
+padding:2%;
+box-sizing:border-box;
+border: 1px solid rgb(77, 134, 105);}
+
+
+.marca{
+    width:33%;
+float:left;
+padding:2%;
+box-sizing:border-box;
+border: 1px solid rgb(77, 134, 105);
+}
+.marcas{
+    background-color: seagreen;
+    padding: 4%;
+    text-align: center;
+    font-size: 1.2em;
+
+}
+
+.video img {width:100%;}
+
+.video h2 {
+   text-align:center;
+   color:black;}
+
+iframe  {
+    width: 100%;
+}
+
+#foto_acoplador{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+#como_funciona {
+    background-color: seagreen;
+    
+}
+
+p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-size: 1.2em;
+}
+
+#introduccion {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+
+#tipos_izquierda{
+    background-color: seagreen;
+    padding: 4%;
+    text-align: center;
+    font-size: 1.2em;
+   
+   
+   
+}
+
+#tipos_derecha{
+    background-color: seagreen;
+    padding: 4%;
+    text-align: center;
+    font-size: 1.2em;
+   
+}
+
+.tipos {
+    display: block;
+}
+
+#soyyoimagen {
+    background-color: rgb(112, 177, 86);
+    width: 100%;
+    height: 500px;
+}
+
+#soyyotexto {
+    background-color: rgb(112, 177, 86);
+    width: 100%;
+    height: 600px;
+}
+
+#soyyotexto p {
+    font-size: 2rem;
+    text-align: center;
+    padding: 4%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#miimagen {
+    width: 50%;
+    text-align: center;
+    background-color: rgb(112, 177, 86);
+    
+}
+
+
+
+
+#backgroundtipos{
+    background-color: seagreen;
+    height: 50vh;
+
+}
+
+@media only screen and  (max-width: 850px){/* cuando dipositivo < 850px se aplica estos estilos */
+    body  {
+        padding-top: 70px ;
+    }
+    
+    .header {
+        height: 60px;
+    }
+
+    .hero {
+        background-repeat: no-repeat;
+    }
+ 
+    
+    .logo {
+        font-size: 25px;
+        padding: 0 20px;
+        line-height: 60px;
+    }
+    
+    .nav-menu {
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        margin: 0;
+        background-color: #85b651;
+        position: fixed;
+        left: 0;
+        top: 60px;
+        width: 100%;
+        padding: 20px 0;
+        height: calc(100% - 60px);
+        overflow-y: auto ;
+
+       left: 100%;
+       transition: left 0.3s;
+    }
+    
+    .nav-menu-item {
+ 
+        line-height: 70px;
+    
+    }
+   .mitad {
+       width: 100%;
+   }
+    .nav-menu-link:hover, .nav-menu-link_active {
+        background: none;
+        color: rgb(0, 255, 34);
+    }
+    
+    
+    .nav-menu-link {
+        padding: 8px 12px;
+        border-radius: 3px;
+    }
+    
+    .nav-toggle {
+        display: block;
+    
+    }
+
+    .nav-menu_visible {
+        left: 0;
+
+    }
+
+    .nav-toggle:focus:not(:focus-visible){ /* cuando estamos en dispositivo movil no se ve resaltado la hamburguesa*/
+        outline: none;
+    }
+}
